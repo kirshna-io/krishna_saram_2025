@@ -49,6 +49,9 @@ import sys
 #
 
 def findPoint(px, py, qx, qy):
+      rx = 2 * qx - px
+        ry = 2 * qy - py
+        return rx, ry
     # Write your code here
 
 if __name__ == '__main__':
